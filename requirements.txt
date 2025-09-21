@@ -1,5 +1,5 @@
 streamlit
 PyPDF2
 python-docx
-graphviz
+pygraphviz
 huggingface-hub
