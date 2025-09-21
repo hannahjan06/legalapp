@@ -2,6 +2,7 @@ streamlit>=1.25.0
 huggingface_hub>=0.17.1
 PyPDF2==3.0.1
 python-docx>=0.8.11
-graphviz>=0.20.1
-
+graphviz
+!apt-get update && apt-get install -y graphviz
 Pillow>=10.0.0
+
