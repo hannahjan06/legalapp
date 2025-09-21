@@ -22,7 +22,6 @@ from huggingface_hub import InferenceApi
 from PyPDF2 import PdfReader
 import docx
 from graphviz import Digraph
-from PIL import Image
 
 # ---------- Helpers: text extraction ----------
 def extract_text_from_pdf(file_bytes: bytes) -> str:
@@ -310,3 +309,4 @@ if process_btn:
 
 st.markdown("---")
 st.caption("Tip: for best extraction, upload documents that have clear numbered clauses, headings, or short paragraphs. Hugging Face model helps extract structure; fallback parser is heuristic.")
+
